@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.cursive{
+    font-family: "Dancing Script", cursive;
+    font-size: 70px;
+    font-weight: 700;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+ 
+   
+    
+   
+}
+
+body{
+    background: black;
+   
+   
+}
+header{
+  
+    border: 1px solid red;
+  
+    background-image: linear-gradient(0deg, rgb(17, 17, 17), rgba(119, 119, 119, 0.3) 100%);
+    
+}
+
+.btn-primary{
+    border-radius: 42px;
+    border: none;
+
+    background: rgb(230, 83, 60);
+    padding: 10px 32px 10px 32px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+
+.btn-secondary{
+
+    border-radius: 42px;
+    border: 1px solid white;
+
+    margin: 0px 10px;
+    background: transparent;
+    padding: 10px 36px 10px 36px;
+
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+
+
+
+nav,.hero{
+    max-width: 1050px;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.nav1{
+    color: rgb(230, 83, 60);
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.nav2{
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 37px;
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    margin-right: 15px;
+
+  
+
+    
+
+}
+
+.nav2  p{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: left;
+    
+   
+    
+}
+
+.nav2 button{
+    padding: 4px 14px 4px 14px;
+    
+}
+
+.nav2-2{
+    
+    background: transparent;
+    border: none;
+}
+
+
+
+
+.nav2-home{
+    border-radius: 46px;
+    border: none;
+   
+
+    
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    background-color:  rgb(230, 83, 60);
+    
+
+}
+
+header .icon{
+    display: none;
+}
+
+
+.hero
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+   
+
+}
+.hero1{
+    margin-left: 20px;
+    margin-right: 15px;
+}
+
+
+.hero1 h2{
+
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    
+
+}
+
+.hero1 p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    margin-top: 35px;
+}
+
+
+
+
+.b1{
+    margin: 50px 0px;
+    display: flex;
+
+
+}
+
+.hero2{
+    background-image: url("./images/Images\ 2.png");
+    
+   background-size: contain;
+    
+   background-repeat: no-repeat;
+   background-position: center;
+   position: relative;
+   height: 550px;
+   background-clip: border-box;
+
+}
+
+
+.hero2 .box1,.box2{
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    display: flex;
+    padding: 15px;
+    
+    
+    position: absolute;
+    bottom: 12%;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+
+}
+
+
+.box1 .part1{
+
+    border-radius: 50%;
+    background: rgb(230, 83, 60);
+    width: 2.2rem;
+    height: 2.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.desc1 h1{
+    color: rgb(250, 250, 249);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: left;
+}
+
+.desc1 p{
+    color: rgba(239, 237, 232, 0.65);
+    font-family: Inter;
+    font-size: 12px;
+}
+
+.box2{
+    top: 15%;
+    right: 15%;
+    height: max-content;
+    padding: 20px;
+}
+.box2 h1{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 40px;
+    letter-spacing: 1px;
+    text-align: left;
+    margin-right: 15px;
+}

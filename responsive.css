@@ -1,0 +1,63 @@
+@media screen and  (max-width: 576px) {
+    .nav2{
+        display: none;
+    }
+    header .icon{
+        display: inline;
+        width: 18px;
+        margin-right: 20px;
+        padding: 10px;
+       
+    }
+    .icon-class{
+        border: 2px solid rgb(255, 255, 255);
+    }
+    .hero{
+        display: grid;
+        grid-template-columns: 1fr;
+        position: relative;
+        margin: 10px;
+    }
+    .hero2{
+        background-clip: border-box;
+    }
+    .hero2 .box1{
+        position: absolute;
+        bottom: 40%;
+        margin-left: 15px;
+    }
+
+    .hero2 .box2{
+        position: absolute;
+        top: 12%;
+        right: 5%;
+        padding: 10px;
+    }
+   
+}
+@media screen and (min-width:576px) and (max-width:780px) {
+    .hero{
+        display: grid;
+        grid-template-columns: 1fr;
+        position: relative;
+        margin: 10px;
+    }
+    .hero2{
+        background-clip: border-box;
+    }
+    .hero2 .box1{
+        position: absolute;
+        bottom: 40%;
+        margin-left: 15px;
+    }
+
+    .hero2 .box2{
+        position: absolute;
+        top: 12%;
+        right: 15%;
+        padding: 10px;
+    }
+
+
+    
+}
