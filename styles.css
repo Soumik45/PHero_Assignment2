@@ -384,3 +384,197 @@ main{
     margin-top: 10px;
 }
 
+
+
+.run{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    border-radius: 18px;
+
+    background: rgb(34, 34, 34);
+    max-width: 1050px;
+    margin: 55px 0px;
+
+}
+
+.part1 h1{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 12px 0px;
+}
+
+.part1 p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0.3px;
+ 
+    margin: 12px 0px;
+}
+
+.part1 button{
+    margin: 30px 0px;
+    
+}
+
+.run .part1{
+    margin: 40px 0px 40px 50px;
+   
+    align-self: center;
+}
+
+.run .part2{
+   
+    margin: 30px;
+    border-radius: 18px;
+    overflow: hidden;
+}
+
+.part2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.bmi1{
+    max-width: 650px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+    padding: 0px 10px 0px 10px;
+
+}
+
+.bmi1 p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 18px;
+    letter-spacing: 0.3px;
+    
+}
+
+.bmi1 h1{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+}
+
+
+.bmi2{
+   
+    background: rgb(34, 34, 34);
+
+}
+
+.bmi2 .container{
+    max-width: 1050px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.bmi2 h2{
+    color: rgb(255, 255, 255);
+    margin-bottom: 3rem;
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 3rem;
+    
+}
+table,th,td{
+    border: 0.5px solid rgba(255, 255, 255, 0.2);
+    border-collapse: collapse;
+
+}
+table{
+    width: 19rem;
+    margin-bottom: 5rem;
+}
+
+th{
+    color: rgb(255, 255, 255);
+    text-align: left;
+    font-family: Inter;
+    font-size: 15px;
+    padding: .5rem .5rem .5rem 1rem;
+}
+
+td{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 18px;
+    letter-spacing: 0.3px;
+    padding: .4rem .5rem .4rem 1rem;
+
+}
+
+.form-container
+{
+    
+    margin-right: 10rem;
+    margin-bottom: 3rem;
+}
+
+
+
+.form-container p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 12px;
+   
+}
+
+.form{
+   
+    
+     
+}
+
+
+.calc-form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    align-items: start;
+}
+
+.calc-form input,option,select{
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.6);
+    border: none;
+    padding: 10px 25px;
+    margin: 5px 10px 5px 0px;
+}
+
+.calc-form .act{
+    grid-column: 1/3;
+}
+
+.calc-form .btn-primary2{
+    border-radius: 42px;
+
+background: rgb(230, 83, 60);
+padding: 12px 30px;
+margin-top: 15px;
+margin-bottom: 50px;
+
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 18px;
+font-weight: 600;
+border: none;
+}

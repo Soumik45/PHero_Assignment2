@@ -39,6 +39,72 @@
         align-items: center;
         margin: 0px 25px;
     }
+
+    .run{
+        display: grid;
+        grid-template-columns: 1fr ;
+        gap: 5px;
+        border-radius: 18px;
+    
+        background: rgb(34, 34, 34);
+        max-width: 1050px;
+        margin: 50px 0px;
+    
+    }
+    
+    .run .part1,.part2{
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+
+    .part1 button{
+        margin: 10px 10px 10px 0px;
+        width: 100%;
+        text-align: center;
+        
+    }
+
+    .bmi2 .container{
+       
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr ;
+        padding: 0px 15px;
+        gap: 5px;
+    }
+
+    .form-container
+{
+    
+    margin-right: 10rem;
+    margin-bottom: 1rem;
+}
+
+    table{
+       
+        margin-bottom: 1rem;
+    }
+
+    .bmi2 h2{
+       
+        margin-bottom: 1rem;
+        
+        margin-top: 1rem;
+        
+    }
+
+    .bmi2 p{
+        margin-bottom: 10px;
+    }
+
+
+    .calc-form{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        align-items: start;
+    }
+    
    
 }
 @media screen and (min-width:576px) and (max-width:780px) {
@@ -74,6 +140,51 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         margin: 0px 25px;
+    }
+    .run{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .bmi2 .container{
+       
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr ;
+        padding: 0px 15px;
+        gap: 5px;
+    }
+
+    .form-container
+{
+    
+    margin-right: 10rem;
+    margin-bottom: 1rem;
+}
+
+    table{
+       
+        margin-bottom: 1rem;
+    }
+
+    .bmi2 h2{
+       
+        margin-bottom: 1rem;
+        
+        margin-top: 1rem;
+        
+    }
+
+    .bmi2 p{
+        margin-bottom: 10px;
+    }
+
+
+    .calc-form{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        align-items: start;
     }
 
 
