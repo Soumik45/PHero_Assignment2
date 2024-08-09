@@ -537,27 +537,43 @@ td{
    
 }
 
-.form{
-   
-    
-     
-}
+
 
 
 .calc-form{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+   
     align-items: start;
+    gap: 15px;
+    
+
 }
 
-.calc-form input,option,select{
+ input,option,select{
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.1);
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(255, 255, 255, 0.5);
+    
     border: none;
-    padding: 10px 25px;
-    margin: 5px 10px 5px 0px;
+    padding: 10px 20px;
+  
+    
+   
+}
+
+select{
+    
+border-right: 15px solid transparent;
+}
+
+option{
+    
+    background: rgba(0,0,0,0.6);
+   
+    
+    
+
 }
 
 .calc-form .act{
@@ -568,7 +584,7 @@ td{
     border-radius: 42px;
 
 background: rgb(230, 83, 60);
-padding: 12px 30px;
+padding: 12px 25px;
 margin-top: 15px;
 margin-bottom: 50px;
 
