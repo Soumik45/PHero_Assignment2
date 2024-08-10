@@ -135,6 +135,21 @@
         margin-left: 15px;
     }
 
+    
+hr{
+    margin: 5px;
+   
+}
+
+.exercise{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+    
+
+
+
+
    
    
     
